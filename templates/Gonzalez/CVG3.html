@@ -1,0 +1,24 @@
+  
+<html>
+    <head>
+        <title>Formacion Academica</title>
+    </head>
+    <body>
+        <p>Formacion Academica:</p>
+        <ul>
+            <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='estilosG.css')}}">
+            <header class="resaltado">Estudios:</header>
+            <li>Estudios de primaria :  Gimansio el lago</li>
+            <li>Estudios de bachillerato: Gimansio el lago</li>
+            <li>Estudios Universitarios: Universidad Distrital Francisco Jose de Caldas</li>
+            <li>Carrera: Ingenieria de Sistemas</li>
+            <li>Estado actual: 6to semestre</li>
+            <footer></footer>
+            
+        </ul>
+        <nav>
+            <a href="{{url_for('index')}}"><img src="{{ url_for('static', filename='imgs/home2.jpg')}}" width=40pnx></a>
+            <hr>
+        </nav>
+    </body>
+</html>

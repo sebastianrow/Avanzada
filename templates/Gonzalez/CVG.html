@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Hoja de vida </title>
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='estilosG.css')}}">
+    </head>
+    <body>
+        <h1>Hoja de vida </h1>
+        <div align="center"><img src="{{ url_for('static', filename='imgG/fotos.PNG')}}" width="18%"></div>
+        <section>
+            <header></header>
+            <h2>Nombre: Juan Sebastian Gonzalez Forero</h2>
+            <h2>Codigo: 20181020029 </h2>
+            <h2>Universidad Distrital Francisco Jose de caldas</h2>
+            <h2>Ingenieria de sistemas</h2>
+            <h2>programacion avanzada</h2>
+            <br>
+
+            <footer> Hoja de vida para programacion avanzada - Profesor: Alejandro Daza </footer>
+
+        </section>
+        <hr>
+        <div align="left"><h2>Apartados de interes </h2></div>
+        <nav>
+            <li><a href="{{url_for('gonzad')}}">Datos básicos</a></li>
+            <hr>
+            <li><a href="{{url_for('gonzaf')}}">Fromación académica</a></li>
+            <hr>
+            <li><a href="{{url_for('gonzai')}}">Intereses tecnológicos</a></li>
+            <hr>
+        </nav>
+        
+         
+        
+
+        <p><b>Gracias Este fue mi breve trabajo para programación avanzada</b></p>
+           <div align="center"><a href="{{url_for('index')}}"><img src="{{ url_for('static', filename='imgG/escudo-universidad-distrital.png')}}" width="150px"></a></div>
+           <div align="center"><a href="{{url_for('index')}}"><img src="{{ url_for('static', filename='imgs/home2.jpg')}}" width=40pnx></a></div>
+    </body>
+</html>

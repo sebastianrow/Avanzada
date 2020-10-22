@@ -1,0 +1,40 @@
+body {
+    font-size: 1.5em;
+}
+
+h1 {
+    text-align: center;
+    color:black;
+    font-size: 2em;
+}
+
+
+h2 {
+    text-align: center;
+    color:black;
+    font-size: 1em;
+}
+
+p {
+    color: black;
+    font-style: oblique;
+}
+nav {
+    color: black;
+    background-color: #7768E3;
+    margin: 1em;
+    padding: 1em;
+    font-style: italic;
+}
+
+table {
+    border: 1px solid black;
+    border-radius: 15px;
+
+}
+
+.resaltado {
+    background-color: black;
+    color: #ffffff;
+    font-style: italic;
+}

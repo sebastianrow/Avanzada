@@ -1,0 +1,42 @@
+  
+<html>
+    <head>
+        <title>Tecnologias</title>
+    </head>
+    <body>
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='estilosG.css')}}">
+        <header class="resaltado">Tecnologias de Interes:</header>
+        <ul>
+            
+            <table border=2>
+                <caption>Estas son algunas de las cosas que me gusaria aprender y mi nivel actual de manejo:</caption>
+                <tr>
+                    <th rowspan=7 class="resaltado">Tecnologias</th><th class="resaltado">Tema</th><th class="resaltado">Nivel de manejo</th><th class="resaltado">Interes (0/10)</th>
+                </tr>
+                <tr>
+                    <td>java</td><td>Medio</td><td>8</td>
+                </tr>
+                <tr>
+                    <td>python</td><td>Medio</td><td>8</td>
+                </tr>
+                <tr>
+                    <td>c++</td><td>medio</td><td>5</td>
+                </tr>
+                <tr>
+                    <td>Bases de datos</td><td>Basico</td><td>9</td>
+                </tr>
+                <tr>
+                    <td>Inteligencia Artificial</td><td>Ninguno</td><td>7</td>
+                </tr>
+                <tr>
+                    <td>Seguridad Informatica</td><td>Ninguno</td><td>6</td>
+                </tr>
+            </table>
+            
+        </ul>
+        <nav>
+            <a href="{{url_for('index')}}"><img src="{{ url_for('static', filename='imgs/home2.jpg')}}" width=40pnx></a>
+            <hr>
+        </nav>
+    </body>
+</html>

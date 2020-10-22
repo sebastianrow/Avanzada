@@ -1,0 +1,25 @@
+  
+<html>
+    <head>
+        <title>Datos Basicos</title>
+    </head>
+    <body>
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='estilosG.css')}}">
+        <p>Estos son algunos datos incluidos</p>
+        <ul>
+            <header class="resaltado">Datos Basicos:</header>
+            <li> Nombre: Juan Sebastian Gonzalez Forero</li>
+            <li> Cedula: 10101010110</li>
+            <li> Edad: 23</li>
+            <li> Dirección: Carrera 107 etc</li>
+            <li> Telefono: 311505050</li>
+            <li> Estrato: 2</li>
+            <li> Estado civil: soltero</li>
+            
+        </ul>
+        <nav>
+            <a href="{{url_for('index')}}"><img src="{{ url_for('static', filename='imgs/home2.jpg')}}" width=40pnx></a>
+            <hr>
+        </nav>
+    </body>
+</html>
