@@ -1,1 +1,2 @@
-# Avanzada
+# Ejercicios programación avanzada
+Profesor Alejandro Daza 
